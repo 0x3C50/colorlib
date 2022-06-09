@@ -61,6 +61,7 @@ This is a nice library"""
 print(colorlib.boxes.generate_text_box(logo, colorlib.boxes.BoxTypes.rounded.value))
 ```
 ![img.png](images/img3.png)
+
 You can also change the box layout, see BoxType in boxes.py
 #### Manipulate text alignment
 Colorlib can also help you align text, here's an example
@@ -74,6 +75,7 @@ Very nice, will fit whatever"""
 print(colorlib.text_manipulation.center_text_in_itself(logo))
 ```
 ![img.png](images/img4.png)
+
 You can also right align text:
 ```python
 import colorlib.text_manipulation
@@ -85,6 +87,7 @@ Nice weather outside today, isn't it?"""
 print(colorlib.text_manipulation.right_align_text(logo))
 ```
 ![img.png](images/img5.png)
+
 There are many more features, the api is pretty self explanatory.
 
 # Support
