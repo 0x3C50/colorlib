@@ -1,14 +1,7 @@
-import colorlib.boxes
-import colorlib.coloring
+import colorlib.text_manipulation
 
-a = """this is the first text
-with newline shit
-and stuff
-very cool
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq"""
+logo = """This text is right aligned
+Just because, no particular reason
+Nice weather outside today, isn't it?"""
 
-print(
-    colorlib.coloring.colorize_with_circle_gradient(
-        colorlib.boxes.generate_cowsay(a), (255, 50, 50),
-        (50, 255, 50), 30).to_ansi_escape_sequences()
-)
+print(colorlib.text_manipulation.right_align_text(logo))
